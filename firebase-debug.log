@@ -1,0 +1,13 @@
+[debug] [2022-06-24T10:30:27.769Z] ----------------------------------------------------------------------
+[debug] [2022-06-24T10:30:27.771Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\RASUL\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-06-24T10:30:27.771Z] CLI Version:   11.0.1
+[debug] [2022-06-24T10:30:27.771Z] Platform:      win32
+[debug] [2022-06-24T10:30:27.771Z] Node Version:  v16.14.2
+[debug] [2022-06-24T10:30:27.772Z] Time:          Fri Jun 24 2022 14:30:27 GMT+0400 (Azerbaijan Standard Time)
+[debug] [2022-06-24T10:30:27.772Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-06-24T10:30:27.835Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-06-24T10:30:27.836Z] > authorizing via signed-in user (rslgszd@gmail.com)
+[debug] [2022-06-24T10:30:27.836Z] [iam] checking project disney-clone-2bd67 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-06-24T10:30:27.838Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/disney-clone-2bd67:testIamPermissions [none]
+[debug] [2022-06-24T10:30:27.838Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/disney-clone-2bd67:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
